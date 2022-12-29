@@ -1,0 +1,22 @@
+{
+    "extensions":[
+        ""
+    ],
+    "fraxinus.yggdrasil.multipartupload" : {
+        "name": "Multipart Upload",
+        "package": "yggdrasil",
+        "description": "Upload large files in multiple parts",
+        "version": "1.0.0",
+        "provider": "Fraxinus",
+        
+        "routes":[
+            {
+                "path": "/api/",
+                "method": "PUT"
+            },
+            {
+
+            }
+        ]
+    }
+}
